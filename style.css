@@ -1,0 +1,39 @@
+#about{
+    background-image: url(Img/aboutbg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#arrow{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 680px;
+    top: 390px;
+background-color:#0C8E88;
+border-radius: 20px;
+}
+#about2{
+   
+}
+
+#serviceimg{
+position: absolute;
+width: 321px;
+height: 243px;
+left: 149px;
+top: 1000px;
+background: #0C8E88;
+}
+ #goal{
+/* position: absolute; */
+margin-left: 10px;
+margin-right: 10px;
+
+/* left: 187.27px; */
+/* top: 1500px;  */
+background: #126B68;
+}
+
+#serviceimg2{
+    margin-left: 0px; 
+}
