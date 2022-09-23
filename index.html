@@ -28,8 +28,8 @@
 </div>
     </header>
     <section id="about" class="h-[30rem]"> 
-        <div >
-           <h1 class="text-6xl text-white  p-72 pt-52 ml-40">
+        <div>
+            <h1 class="text-6xl text-white  p-72 pt-52 ml-40 lg:w-fit">
             a <b> global village</b> needs
             <br> <b class="ml-9">global businessess</b>
            </h1>
@@ -64,19 +64,19 @@
             </div>
         </div>
     </section>
-    <section id="services" class="flex">
+    <section id="services" class="flex flex-col-reverse lg:flex-row">
         <div class="w-1/2">
             <img src="Img/service1.png" alt="">
 
-            <p id="serviceimg" class="text-white p-16 mb-8">Growing Africa’s small & Medium Enterprises to become sustainable and profitable for the next decade</p>
+            <p id="serviceimg" class="text-white p-16 mb-8 sm:hidden">Growing Africa’s small & Medium Enterprises to become sustainable and profitable for the next decade</p>
         </div>
                 
-        <div class="bg-black text-white w-1/2 flex p-5">
+        <div class="bg-black text-white w-1/2 flex p-5 flex-col lg:flex-row">
             <div class="my-aut">
                 <h1 class="">WHAT WE DO</h1>
                 <p class="text-3xl pr-6"><b>We have the expertise to help <br> your business thrive <br> anywhere</b></p>
     
-                <div class="flex pt-8 flex-wrap">
+                <div class="flex pt-8 flex-wrap flex-col lg:flex-row">
                     <div class="w-1/2 p-2 pt-4">
                         <p> <span class="text-[#0C8E88]">01</span> <b>Market Strategy Development</b></p>
                          <h2>Starting out with a new business or attempting to scale your business for a wider market? We’ve got you covered.</h2>
@@ -95,19 +95,56 @@
         </div>
     </section>
 
-    <section class="flex">
- <div class="w-2/4 pt- p-12">
-    <h1 class="text-xl">Unique business experiences</h1>
+    <section class="flex flex-col lg:flex-row">
+ <div class="p-16">
+    <h1 class="text-3xl">Unique business experiences</h1>
 
-    <h2 class="text-xl">Four out of the remaining seven businesses fold up after the first five years of existing</h2>
+    <h2 class="text-4xl"><b>Four out of the remaining seven businesses fold up after the first <br> five years of existing</b></h2>
 
-    <h3>We're focused on growing Africa’s small and Medium Enterprises to become sustainable and profitable for the next decade. What is also certain is that there will be more casualties than successes unless something is done to help small businesses thrive. That’s why we do what we do.</h3>
-    <button></button>
+    <h3 class="text">We're focused on growing Africa’s small and Medium Enterprises to become sustainable and profitable for the next decade. What is also certain is that there will be more casualties than successes unless something is done to help small businesses thrive. That’s why we do what we do.</h3>
+    <button class="bg-[#0C8E88] text-white p-2 m-4">ABOUT COMPANY</button>
  </div>
- <div class="flex space-x-8 pt-4 ml-80">
-    <img src="Img/goal.png" class="w-2/4" id="serviceimg2" alt="">
-    <p id="goal" class="w-2/4 h-96 pt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non mollitia fuga, esse eum doloribus veritatis, reiciendis minus nulla ipsum id harum repellendus labore ut maxime a nam. Atque, a non?</p>
+ <div class="flex space-x-12 gap-8 pt-4 mr-12 flex-col lg:flex-row">
+    <img src="Img/goal.png" class="w-2/4 h-96" id="serviceimg2" alt="">
+    <p id="goal" class="w-/4 h-96 py-20 text-white p-4">The Goal of the Boltzmenn team remains the same for all clients. No matter the country, size, industry or capacity of the organization, to build long lasting businesses.</p>
  </div>
     </section>
+    <section>
+        <h1 class="ml-[35%] text-4xl"><b>OUR VALUABLE CLIENTS</b></h1>
+
+        <div class="flex space-x-8 p-16 flex-col lg:flex-row">
+            <div class="w-1/4"><img src="Img/value1.png" alt=""></div>
+            <div class="w-1/4"><img src="Img/value2.png" alt=""></div>
+            <div class="w-1/4"><img src="Img/value3.png" alt=""></div>
+            <div class="w-1/4"><img src="Img/value4.png" alt=""></div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-black text-white p-4 flex flex-col lg:flex-row">
+            <h1 class="p-2 pl-[30rem]">We will love to hear about your business.</h1> 
+            <button class="bg-[#0C8E88] text-white p-1 border-double rounded-r-md">Contact us</button>
+        </div>
+    </section>
+
+    <footer class="flex  space-x-12 ml-4 flex-col lg:flex-row">
+        <div class="ml-20 p-6">
+            <img src="img/logo.png" alt="">
+        </div> 
+        <div class="p-8">
+            <h3>64 Jubril Martins stree, <br>
+                Lawanson, Lagos State, Nigeria.</h3>
+        </div>
+        <div class="p-8">
+            <h4>+234(0) 836 653 355 <br>
+                boltzmenn@gmail.com <br>
+                @2020 Copyrights Boltzmenn.</h4>
+        </div>
+
+        <div class="flex p-12 space-x-4">
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+        </div>
+    </footer>
 </body>
 </html>

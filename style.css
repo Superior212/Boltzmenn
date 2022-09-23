@@ -12,10 +12,6 @@
 background-color:#0C8E88;
 border-radius: 20px;
 }
-#about2{
-   
-}
-
 #serviceimg{
 position: absolute;
 width: 321px;
@@ -25,12 +21,8 @@ top: 1000px;
 background: #0C8E88;
 }
  #goal{
-/* position: absolute; */
-margin-left: 10px;
-margin-right: 10px;
-
-/* left: 187.27px; */
-/* top: 1500px;  */
+margin-left: 2px;
+margin-right: 1px;
 background: #126B68;
 }
 
